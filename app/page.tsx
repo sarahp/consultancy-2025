@@ -124,7 +124,7 @@ export default function ConsultancyPage() {
                   </div>
                 </div>
                 <p className="text-sm text-gray-500 mb-4">
-                  Reviews streamed live (12–1PM EST next week, sooner if you book fast). Perfect for job seekers!
+                  Reviews streamed live (12–1PM EDT Monday, June 23rd-Friday, June 27th). Perfect for career moves!
                 </p>
               </CardContent>
             </Card>
@@ -160,7 +160,7 @@ export default function ConsultancyPage() {
                     Structure and clarity improvements
                   </div>
                 </div>
-                <p className="text-sm text-gray-500 mb-4">Delivered via written report or Loom video walkthrough</p>
+                <p className="text-sm text-gray-500 mb-4">Delivered via video walkthrough</p>
               </CardContent>
             </Card>
 
@@ -168,7 +168,7 @@ export default function ConsultancyPage() {
             <Card className="border-2 border-orange-200 hover:border-orange-300 transition-colors shadow-lg hover:shadow-xl md:col-span-2 lg:col-span-1">
               <CardHeader>
                 <div className="flex items-center justify-between mb-2">
-                  <Badge className="bg-orange-100 text-orange-800">$400</Badge>
+                  <Badge className="bg-orange-100 text-orange-800">Starting at $400</Badge>
                   <Zap className="w-5 h-5 text-orange-600" />
                 </div>
                 <CardTitle className="text-xl text-gray-900">Livestream Portfolio Build</CardTitle>
@@ -200,7 +200,7 @@ export default function ConsultancyPage() {
             <Card className="border-2 border-blue-300 hover:border-blue-400 transition-colors shadow-lg hover:shadow-xl">
               <CardHeader>
                 <div className="flex items-center justify-between mb-2">
-                  <Badge className="bg-blue-100 text-blue-800">$500</Badge>
+                  <Badge className="bg-blue-100 text-blue-800">Starting at $500</Badge>
                   <Code className="w-5 h-5 text-blue-600" />
                 </div>
                 <CardTitle className="text-xl text-gray-900">Vibe-Coded Portfolio</CardTitle>
@@ -233,7 +233,7 @@ export default function ConsultancyPage() {
             <Card className="border-2 border-orange-300 hover:border-orange-400 transition-colors shadow-lg hover:shadow-xl">
               <CardHeader>
                 <div className="flex items-center justify-between mb-2">
-                  <Badge className="bg-orange-100 text-orange-800">$1,200+</Badge>
+                  <Badge className="bg-orange-100 text-orange-800">Starting at $1,200</Badge>
                   <Users className="w-5 h-5 text-orange-600" />
                 </div>
                 <CardTitle className="text-xl text-gray-900">Enterprise Consulting</CardTitle>
