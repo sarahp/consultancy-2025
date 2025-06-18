@@ -178,7 +178,11 @@ export default function ConsultancyPage() {
                 <div className="space-y-3 mb-4">
                   <div className="flex items-center text-sm text-gray-600">
                     <CheckCircle className="w-4 h-4 text-green-500 mr-2 flex-shrink-0" />
-                    1:1 strategy call
+                    Strategy session on stream
+                  </div>
+                  <div className="flex items-center text-sm text-gray-600">
+                    <CheckCircle className="w-4 h-4 text-green-500 mr-2 flex-shrink-0" />
+                    Vibe-coded portfolio during livestream
                   </div>
                   <div className="flex items-center text-sm text-gray-600">
                     <CheckCircle className="w-4 h-4 text-green-500 mr-2 flex-shrink-0" />
@@ -186,7 +190,7 @@ export default function ConsultancyPage() {
                   </div>
                   <div className="flex items-center text-sm text-gray-600">
                     <CheckCircle className="w-4 h-4 text-green-500 mr-2 flex-shrink-0" />
-                    GitHub repo + easy deployment
+                    GitHub repo + easy deployment on your own free Vercel account
                   </div>
                   <div className="flex items-center text-sm text-gray-600">
                     <CheckCircle className="w-4 h-4 text-green-500 mr-2 flex-shrink-0" />
