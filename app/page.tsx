@@ -282,15 +282,16 @@ export default function ConsultancyPage() {
             <Button
               size="lg"
               className="bg-gradient-to-r from-red-500 to-pink-500 hover:from-red-600 hover:to-pink-600 text-white px-8 py-3 font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
+              onClick={() => window.open("https://ko-fi.com/sarahpstudio", "_blank")}
             >
               <Heart className="mr-2 w-5 h-5" />
               Donate via Ko-fi
-              <ExternalLink className="ml-2 w-4 h-4" />
+              <ExternalLink className="ml-2 w-4 h-4"/>
             </Button>
             <Button
               size="lg"
               variant="outline"
-              onClick={() => scrollToSection("services")}
+              onClick={() => scrollToSection("contact")}
               className="border-2 border-blue-300 text-blue-700 hover:bg-blue-50 px-8 py-3 font-semibold"
             >
               Book a Service
@@ -327,6 +328,7 @@ export default function ConsultancyPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
+              onClick={() => window.open("https://discord.gg/k8GcTjum", "_blank")}
               size="lg"
               className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
             >
@@ -335,12 +337,13 @@ export default function ConsultancyPage() {
               <ExternalLink className="ml-2 w-4 h-4" />
             </Button>
             <Button
+              onClick={() => window.open("https://www.linkedin.com/in/sarahpeony/", "_blank")}
               size="lg"
               variant="outline"
               className="border-2 border-orange-300 text-orange-700 hover:bg-orange-50 px-8 py-3 font-semibold"
             >
               <Linkedin className="mr-2 w-5 h-5" />
-              LinkedIn DM
+              Connect on LinkedIn
               <ExternalLink className="ml-2 w-4 h-4" />
             </Button>
           </div>
